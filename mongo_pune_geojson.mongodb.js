@@ -64,3 +64,34 @@ var numberRestaurants = db.restaurants.find(
 ).count()
 
 console.log('There are ' + numberRestaurants + ' restaurants in ' + q1neighborhood.name);
+
+
+/*** 
+ * IA QUESTION 1 - 3 points
+ * How many restaurants whose list of categories includes "Chinese" are within 2km of longitude 73.94461877875536, latitude 18.545868550081565 ?
+***/
+
+
+/*** 
+ * IA QUESTION 2 - 4 points
+ * What is the name of the restaurant closest to the point longitude 73.73859430249657, latitude 18.489515369800266 that has a `dining_rating` greater than 4 and a `pricing_for_2` less than 1,000?
+***/
+
+
+/*** 
+ * IA QUESTION 3 - 5 points
+ * How many restaurants in the neighborhood containing the point longitude 73.76415038261914, latitude 18.570314608276487 have the word "Ambience" (any case) in their `known_for_atmos` field?
+***/
+
+
+/*** 
+ * IA QUESTION 4 - 5 points
+ * What is the name of the restaurant with the lowest `pricing_for_2` that has a dining_rating greater than 4.5, a `category` of "European", and whose `locality` includes either "Baner" or "Kalyani Nagar"?
+***/
+
+
+/*** 
+ * IA QUESTION 5 - 8 points
+ * What ward has the highest number of restaurants with the `category` of "Bengali"?
+***/
+
